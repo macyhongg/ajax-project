@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* .flex-end {
+  justify-content: flex-end;
+} */
+
+.space-btwn {
+  justify-content: space-between;
+}
+
+/* .card {
+
+} */
+
+/* Media Queries for phone */

@@ -1,0 +1,16 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h3 {
+  margin-right: 50px;
+}
+
+.card img {
+  width: 20%;
+}
+
+.navbar {
+  background-color: #ff6e6c;
+  color: white;
+}
