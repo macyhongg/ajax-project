@@ -13,8 +13,32 @@
   align-items: center;
 }
 
-.space-btwn {
-  justify-content: space-between;
+/* Media Queries for phone */
+@media screen and (max-width: 800px) {
+  section {
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  header {
+    flex-direction: column;
+    align-content: center;
+  }
 }
 
-/* Media Queries for phone */
+@media screen and (min-width: 800px) {
+  section {
+    width: 20%;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+}
