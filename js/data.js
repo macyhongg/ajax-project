@@ -1,9 +1,6 @@
 /* exported data */
 
 var $cards = document.getElementById('cards');
-// var $film = document.getElementById('film');
-// var $cardImg = document.getElementById('card-img');
-// var $desc = document.getElementById('desc');
 
 var xhr = new XMLHttpRequest();
 
