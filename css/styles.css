@@ -1,0 +1,31 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  margin-right: 50px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 70%;
+}
+
+p {
+  width: 80%;
+}
+
+.navbar {
+  background-color: #ff6e6c;
+  color: white;
+}

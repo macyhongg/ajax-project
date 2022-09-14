@@ -1,0 +1,44 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* Media Queries for phone */
+@media screen and (max-width: 800px) {
+  section {
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  header {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  section {
+    width: 20%;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+}
