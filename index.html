@@ -15,12 +15,33 @@
       <h1>Studio Ghibli</h1>
     </div>
     <div class="row align-center">
-      <h3>Browse</h3>
-      <h3>Watch Later</h3>
+      <h3 class="mr-50">Browse</h3>
+      <h3 class="mr-50">Watch Later</h3>
     </div>
   </header>
   <main>
-    <div class="row" id="cards">
+    <div class="row" id="cards" data-view="browse">
+    </div>
+    <div data-view="details">
+      <div class="row">
+        <h1>Film Title</h1>
+      </div>
+      <div class="row">
+        <section class="col-40">
+          <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg" alt="">
+        </section>
+        <div class="col-60">
+          <h3>Add to Watch Later</h3>
+          <p>Description</p>
+          <h4>Original Title</h4>
+          <h5>Original Title:</h5>
+          <h5>Original Title Romanised:</h5>
+          <h5>Director:</h5>
+          <h5>Release Date:</h5>
+          <h5>Score:</h5>
+          <h5>Length:</h5>
+        </div>
+      </div>
     </div>
   </main>
   <script src="js/data.js"></script>

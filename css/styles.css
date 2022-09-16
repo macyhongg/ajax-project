@@ -7,7 +7,7 @@ h2 {
   text-align: center;
 }
 
-h3 {
+.mr-50 {
   margin-right: 50px;
 }
 
@@ -28,4 +28,8 @@ p {
 .navbar {
   background-color: #ff6e6c;
   color: white;
+}
+
+.margin {
+  margin-left: 6%;
 }

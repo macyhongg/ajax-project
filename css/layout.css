@@ -3,6 +3,15 @@
   flex-wrap: wrap;
 }
 
+.col-40 {
+  width: 40%;
+}
+
+.col-60 {
+  width: 60%;
+  text-align: left;
+}
+
 .card {
   display: flex;
   justify-content: center;
